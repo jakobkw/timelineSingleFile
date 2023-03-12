@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  margin: 40;
+}
+
+.timeline-grid__container {
+  overflow-x: auto;
+}
+
+.timeline-grid__row {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  padding: 10px 0;
+}
+
+.timeline-grid__header {
+  flex: 0 0 80px;
+}
+
+.timeline-grid__header span {
+  padding-left: 5px;
+  border-left: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.timeline-bar {
+  background: #27aee3;
+  border: 1px solid #eee;
+}
+
+.timeline-grid__content {
+  display: inline-flex;
+}
+
+.timeline-bar__text {
+  color: #fff;
+  margin: 4px 5px;
+}
